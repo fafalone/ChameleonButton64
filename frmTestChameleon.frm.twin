@@ -1,0 +1,45 @@
+[FormDesignerId("8FA76381-3FBA-486A-835A-D487D9637362")]
+[ClassId("07E21DB5-A271-4E44-AB91-762B2B7CB03F")]
+[InterfaceId("9B15265F-AA31-47D9-8CE7-7DBD3471CE50")]
+[EventInterfaceId("3C4F700B-8E22-4F59-A794-E3651A916240")]
+Class frmTestChameleon
+    Attribute VB_Name = "frmTestChameleon"
+    Attribute VB_GlobalNameSpace = False
+    Attribute VB_Creatable = False
+    Attribute VB_PredeclaredId = True
+    Attribute VB_Exposed = False
+    Option Explicit
+    
+    'just to test if it works fine
+    
+    Private Sub cbFlat_Click()
+        MsgBox "Flat clicked!!!"
+    End Sub
+    
+    Private Sub cbJava_Click()
+        MsgBox "Java clicked!!!"
+    End Sub
+    
+    Private Sub cbMac_Click()
+        MsgBox "Mac clicked!!!"
+    End Sub
+    
+    Private Sub cbNetscape_Click()
+        MsgBox "Netscape clicked!!!"
+    End Sub
+    
+    Private Sub cbWin16_Click()
+        MsgBox "Win16 clicked!!!"
+    End Sub
+    
+    Private Sub cbWin32_Click()
+        MsgBox "Win32 clicked!!!"
+    End Sub
+    
+    Private Sub cbWinXP_Click()
+        MsgBox "WinXP clicked!!!"
+    End Sub
+    
+    
+
+End Class
